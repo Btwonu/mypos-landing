@@ -1,0 +1,20 @@
+{
+  "name": "mypos-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4",
+    "vite": "^5.4.8",
+    "vite-plugin-sass-glob-import": "^4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
