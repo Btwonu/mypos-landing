@@ -1,0 +1,21 @@
+/* ==========================================================================
+	 .section-services
+	 ========================================================================== */
+
+.section-services {
+	--row-gap: 25px;
+
+	.section-services__title {
+		text-align: center;
+		font-weight: 300;
+		margin-bottom: 80px;
+	}
+
+	.row {
+		margin: calc(-1 * var(--row-gap)) 0;
+	}
+
+	.service-wrapper {
+		padding: var(--row-gap) 0;
+	}
+}
