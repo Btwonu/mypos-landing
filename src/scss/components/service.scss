@@ -1,0 +1,30 @@
+/* ==========================================================================
+	 .service
+	 ========================================================================== */
+
+.service {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+	.service__icon {
+		flex: 0 0 115px;
+		max-width: 115px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.service__body {
+		h4 {
+			font-weight: 300;
+			letter-spacing: .02em;
+			margin-bottom: 0;
+		}
+
+		strong {
+			font-size: 18px;
+		}
+	}
+}

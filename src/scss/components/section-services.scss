@@ -3,19 +3,21 @@
 	 ========================================================================== */
 
 .section-services {
+	--col-gap: 25px;
 	--row-gap: 25px;
 
 	.section-services__title {
 		text-align: center;
 		font-weight: 300;
 		margin-bottom: 80px;
+		margin-left: -100px;
 	}
 
 	.row {
-		margin: calc(-1 * var(--row-gap)) 0;
+		margin: calc(-1 * var(--row-gap)) calc(-1 * var(--col-gap));
 	}
 
 	.service-wrapper {
-		padding: var(--row-gap) 0;
+		padding: var(--row-gap) var(--col-gap);
 	}
 }
