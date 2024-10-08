@@ -1,0 +1,38 @@
+/* ==========================================================================
+	 .section-terminals
+	 ========================================================================== */
+
+.section-terminals {
+	--col-gap: 20px;
+	padding: 80px 0;
+
+	.container {
+		max-width: 1160px;
+	}
+
+	.row {
+		margin: 0 calc(-1 * var(--col-gap));
+	}
+
+	.card-terminal-wrapper {
+		padding: 0 var(--col-gap);
+	}
+
+	.section-terminals__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		height: 100%;
+
+		h2 {
+			font-weight: 300;
+			letter-spacing: .03em;
+			margin-bottom: 17px;
+		}
+
+		p {
+			margin-bottom: 54px;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+/* ==========================================================================
+	 .card-terminal
+	 ========================================================================== */
+
+.card-terminal {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+
+	.card-terminal__img {
+		max-width: 185px;
+
+		> img {
+			width: 100%;
+		}
+	}
+
+	.card-terminal__title {
+		font-weight: 400;
+		margin-top: 35px;
+		letter-spacing: .03em;
+	}
+}
