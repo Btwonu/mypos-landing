@@ -1,0 +1,41 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 30" width="76" height="30">
+	<title>Vector Smart Object-ai</title>
+	<style>
+		.s0 { fill: #626366 } 
+		.s1 { fill: #0480c5 } 
+		.s2 { fill: #0cad57 } 
+		.s3 { fill: #faaa18 } 
+		.s4 { fill: #ee4931 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<g id="&lt;Group&gt;">
+							<g id="&lt;Group&gt;">
+								<g id="&lt;Group&gt;">
+									<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m36.1 23.7h-2.8v-21.4h7.3q2.8 0 4.7 1.8 2 1.9 2 4.5 0 2.8-2 4.6-1.9 1.8-4.7 1.8h-4.5zm0-11.3h4.6q1.6 0 2.7-1.1 1.1-1.1 1.1-2.6 0-1.5-1.1-2.6-1.1-1.2-2.7-1.2h-4.6z"/>
+								</g>
+							</g>
+							<g id="&lt;Group&gt;">
+								<g id="&lt;Group&gt;">
+									<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s0" d="m53.6 8.6q3.1 0 4.8 1.6 1.8 1.6 1.8 4.4v9.1h-2.6v-2.1h-0.1q-1.8 2.5-4.6 2.5-2.4 0-4-1.4-1.7-1.4-1.7-3.6 0-2.2 1.7-3.6 1.8-1.3 4.6-1.3 2.5 0 4.1 0.9v-0.7q0-1.4-1.2-2.4-1.1-1-2.6-1-2.3 0-3.7 1.9l-2.4-1.5q2-2.8 5.9-2.8zm-3.5 10.6q0 1.1 0.9 1.8 0.9 0.7 2.1 0.7 1.7 0 3.1-1.3 1.4-1.3 1.4-3-1.3-1-3.6-1-1.7 0-2.8 0.8-1.1 0.8-1.1 2z"/>
+								</g>
+							</g>
+							<g id="&lt;Group&gt;">
+								<path id="&lt;Path&gt;" class="s0" d="m75.3 9l-9.2 21.1h-2.8l3.4-7.4-6.1-13.7h3l4.4 10.5h0.1l4.2-10.5z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m24.9 13.1q0-1.3-0.2-2.5h-11.6v4.8h6.7c-0.3 1.5-1.2 2.8-2.5 3.7v3.1h4c2.3-2.2 3.6-5.3 3.6-9.1z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m13.1 25.2c3.4 0 6.2-1.1 8.2-3l-4-3.1c-1.1 0.8-2.5 1.2-4.2 1.2-3.2 0-5.9-2.2-6.9-5.1h-4v3.2c2 4 6.1 6.8 10.9 6.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m6.2 15.2q-0.3-1.1-0.3-2.3 0-1.3 0.3-2.4v-3.2h-4c-0.9 1.7-1.4 3.6-1.4 5.6 0 1.9 0.5 3.8 1.4 5.5z"/>
+				<path id="&lt;Path&gt;" class="s4" d="m13.1 5.4c1.9 0 3.5 0.7 4.8 1.9l3.5-3.5c-2.2-2-4.9-3.2-8.3-3.2-4.8 0-8.9 2.7-10.9 6.7l4 3.2c1-2.9 3.7-5.1 6.9-5.1z"/>
+			</g>
+		</g>
+	</g>
+</svg>
