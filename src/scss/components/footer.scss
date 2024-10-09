@@ -1,0 +1,38 @@
+/* ==========================================================================
+	 .footer
+	 ========================================================================== */
+
+.footer {
+	position: relative;
+	z-index: 1;
+	background: #363636;
+	color: #fff;
+	font-size: 12px;
+	padding: 60px 0;
+	text-align: center;
+
+	.footer__logo {
+		max-width: 97px;
+		margin: 0 auto 50px;
+		opacity: .6;
+
+		/* Mobile */
+		@media only screen and (max-width: 768px) {
+			margin: 0 auto 40px;
+		}
+	}
+
+	.footer__actions {
+		font-size: 14px;
+
+		a {
+			color: inherit;
+		}
+
+		ul {
+			display: flex;
+			align-items: center;
+			list-style: none;
+		}
+	}
+}
