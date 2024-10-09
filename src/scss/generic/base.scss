@@ -6,7 +6,10 @@
 	position: relative;
 	overflow: hidden;
 
-	img, video, svg, iframe {
+	img,
+	video,
+	svg,
+	iframe {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -18,7 +21,10 @@
 
 // .image-fit--contain
 .image-fit--contain {
-	img, video, svg, iframe {
+	img,
+	video,
+	svg,
+	iframe {
 		object-fit: contain;
 	}
 }

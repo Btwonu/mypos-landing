@@ -6,6 +6,22 @@
 	--col-gap: 25px;
 	--row-gap: 25px;
 
+	position: relative;
+	padding: 80px 0;
+
+	&:before {
+		content: '';
+		z-index: -1;
+		background-image: url('/images/image-6.png');
+		background-repeat: no-repeat;
+    background-size: contain;
+		position: absolute;
+    bottom: -570px;
+    right: 40%;
+    width: 2590px;
+    height: 3100px;
+	}
+
 	.section-services__title {
 		text-align: center;
 		font-weight: 300;
