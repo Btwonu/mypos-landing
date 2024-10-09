@@ -53,6 +53,7 @@
 @import 'generic/reset';
 @import 'generic/base';
 @import 'generic/fonts';
+@import 'generic/mixins';
 
 /*
 	 Components
@@ -67,3 +68,5 @@
 @import "components/box";
 @import "components/wrapper";
 @import "components/footer";
+@import "components/price";
+@import "components/tooltip";

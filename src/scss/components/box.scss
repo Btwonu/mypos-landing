@@ -4,11 +4,7 @@
 
 .box {
 	display: inline-block;
-	background: linear-gradient(
-		25deg,
-		rgba(60, 140, 255, 1) 0%,
-		rgba(9, 193, 220, 1) 100%
-	);
+	background: var(--color-blue-gradient);
 	padding: 30px;
 	border-radius: 10px;
 	font-size: 24px;

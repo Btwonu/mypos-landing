@@ -1,0 +1,32 @@
+/* ==========================================================================
+	 .price
+	 ========================================================================== */
+
+.price {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: var(--color-blue-gradient);
+	border-radius: 50% 50% 50% 0;
+	padding: 30px 20px 15px 20px;
+	color: #fff;
+	font-size: 32px;
+	line-height: 1;
+	font-weight: 700;
+
+	&::selection, > *::selection {
+		background-color: #000;
+	}
+
+	small {
+		font-size: 14px;
+	}
+
+	.price__fraction {
+		vertical-align: top;
+	}
+
+	.price__vat {
+		font-weight: 400;
+	}
+}
