@@ -8,18 +8,26 @@
 	justify-content: center;
 	background: var(--color-blue-gradient);
 	border-radius: 50% 50% 50% 0;
-	padding: 30px 20px 15px 20px;
+	padding: 18px 15px 10px 15px;
 	color: #fff;
-	font-size: 32px;
 	line-height: 1;
 	font-weight: 700;
+	aspect-ratio: 1;
 
 	&::selection, > *::selection {
 		background-color: #000;
 	}
 
 	small {
-		font-size: 14px;
+		font-size: 12px;
+	}
+
+	.price__main {
+		font-size: 32px;
+	}
+
+	.price__currency {
+		font-size: 24px;
 	}
 
 	.price__fraction {

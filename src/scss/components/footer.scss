@@ -12,13 +12,20 @@
 	text-align: center;
 
 	.footer__logo {
-		max-width: 97px;
-		margin: 0 auto 50px;
+		max-width: 70px;
+		margin: 0 auto 40px;
 		opacity: .6;
 
-		/* Mobile */
-		@media only screen and (max-width: 768px) {
-			margin: 0 auto 40px;
+		@include media-breakpoint-up(md) {
+			max-width: 80px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			max-width: 97px;
+		}
+
+		@include media-breakpoint-up(xxl) {
+			margin: 0 auto 50px;
 		}
 	}
 
@@ -51,6 +58,10 @@
 				height: 9px;
 				color: var(--color-links);
 				line-height: 0.6;
+			}
+
+			@include hover {
+				color: var(--color-links);
 			}
 		}
 	}

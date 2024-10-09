@@ -43,7 +43,7 @@
 
 	.card-terminal__img {
 		position: relative;
-		max-width: 185px;
+		max-width: 145px;
 
 		// Gradient background
 		&:before {
@@ -52,8 +52,8 @@
 			z-index: -1;
 			left: 50%;
 			top: 50%;
-			width: 310px;
-			height: 320px;
+			width: 260px;
+			height: 280px;
 			opacity: 0;
 			visibility: hidden;
 			pointer-events: none;
@@ -64,6 +64,33 @@
 			transition-property: opacity, visibility, transform;
 			transition-duration: var(--t-dur);
 			transition-timing-function: var(--t-ease);
+
+			@include media-breakpoint-up(md) {
+				width: 310px;
+				height: 320px;
+			}
+
+			@include media-breakpoint-up(lg) {
+				width: 260px;
+				height: 280px;
+			}
+
+			@include media-breakpoint-up(xxl) {
+				width: 310px;
+				height: 320px;
+			}
+		}
+
+		@include media-breakpoint-up(md) {
+			max-width: 185px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			max-width: 145px;
+		}
+
+		@include media-breakpoint-up(xxl) {
+			max-width: 185px;
 		}
 
 		> img {

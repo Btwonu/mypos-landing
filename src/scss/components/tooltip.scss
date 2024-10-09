@@ -5,7 +5,7 @@
 .tooltip {
 	--bg-color: #fff;
 	position: relative;
-	padding: 10px 20px;
+	padding: 10px 20px 27px;
 	background: var(--bg-color);
 	box-shadow: -8px 7px 49px rgba(0, 0, 0, 0.16);
 	border-radius: 10px;
@@ -13,6 +13,7 @@
 	transition-property: opacity, visibility;
 	transition-duration: var(--t-dur);
 	transition-timing-function: var(--t-ease);
+	line-height: 1.2;
 
 	&:before {
 		--arrow-size: 22px;
@@ -32,7 +33,7 @@
 	.tooltip__title {
 		color: var(--color-links);
 		font-size: 18px;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 		font-weight: 700;
 	}
 
