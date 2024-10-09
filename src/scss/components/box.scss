@@ -1,0 +1,48 @@
+/* ==========================================================================
+	 .box
+	 ========================================================================== */
+
+.box {
+	display: inline-block;
+	background: linear-gradient(
+		25deg,
+		rgba(60, 140, 255, 1) 0%,
+		rgba(9, 193, 220, 1) 100%
+	);
+	padding: 30px;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: 700;
+
+	ul {
+		margin-bottom: 0;
+		list-style: none;
+	}
+
+	li {
+		position: relative;
+		padding-left: 30px;
+		letter-spacing: .03em;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 10px;
+			height: 10px;
+			background: #fff;
+			border-radius: 50%;
+		}
+
+		span {
+			font-size: 14px;
+			vertical-align: top;
+		}
+	}
+
+	li + li {
+		margin-top: 24px;
+	}
+}
