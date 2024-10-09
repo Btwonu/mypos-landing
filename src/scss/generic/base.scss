@@ -31,5 +31,9 @@
 
 a {
 	text-decoration: none;
-	color: #048ef8;
+	color: var(--color-links);
+}
+
+ul, ol {
+	padding-left: 0;
 }
