@@ -114,6 +114,7 @@
 
 	.card-terminal__tooltip {
 		position: absolute;
+		z-index: 1;
 		bottom: calc(100% + 60px);
 		left: 50%;
 		transform: translateX(-50%);
