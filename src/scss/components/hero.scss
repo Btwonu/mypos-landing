@@ -36,11 +36,11 @@
 		top: 0;
 		width: 100%;
 		height: min(60vh, 100%);
-		background-image: url('/images/image-8.jpg');
+		background-image: url('/images/hero-image.webp');
 		background-repeat: no-repeat;
 		background-position: 61% 48%;
 		background-size: var(--bg-size);
-		mask-image: url('/images/image-3.png');
+		mask-image: url('/images/image-3.webp');
 		mask-repeat: no-repeat;
 		mask-position: top;
 		mask-size: 120vh;
@@ -81,7 +81,7 @@
 		}
 
 		@media only screen and (min-width: 2001px) {
-			mask-image: url('/images/shape-large.png');
+			mask-image: url('/images/shape-large.webp');
 			mask-size: 130%;
 		}
 
